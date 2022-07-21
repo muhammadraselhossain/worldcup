@@ -68,8 +68,18 @@ body{
     color:#161616
     
 }
+@keyframes hero-animation{
+    0%{
+        margin-left: 100px;
+    }
+    100%{
+        margin-left:-100px
+    }
+}
 .hero-banner img{
     height:100%;
+    animation: hero-animation 3s ease-in-out 1  ;
+
 }
 /*header section end*/
 /*matches section start*/
