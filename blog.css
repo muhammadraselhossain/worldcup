@@ -63,6 +63,11 @@ body{
     border-radius: 5px;
     width:150px;
 }
+#upcoming-match a{
+    text-decoration: none;
+    color:#161616
+    
+}
 .hero-banner img{
     height:100%;
 }
